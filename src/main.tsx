@@ -10,7 +10,7 @@ const buildTimestamp = Date.now(); // Add current timestamp for more aggressive 
 
 // Function to check if we're on the production domain
 const isProductionDomain = () => {
-  return window.location.hostname === 'ki.ccds.de';
+  return window.location.hostname === 'sellr.traversetec.co';
 };
 
 // Clear all caches programmatically if supported and this is a version upgrade
