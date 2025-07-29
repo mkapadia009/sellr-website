@@ -54,7 +54,7 @@ const SellrNavbar = () => {
           {/* Theme Toggle & Desktop CTA */}
           {!isMobile && (
             <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <Sun className={theme === 'light' ? 'text-yellow-500' : 'text-muted-foreground'} size={20} />
                 <Switch
                   checked={theme === 'light'}
@@ -62,7 +62,7 @@ const SellrNavbar = () => {
                   aria-label="Toggle theme"
                 />
                 <Moon className={theme === 'dark' ? 'text-blue-500' : 'text-muted-foreground'} size={20} />
-              </div>
+              </div> */}
               <Button
                 variant="default"
                 onClick={() => scrollToSection('#contact')}
@@ -81,7 +81,7 @@ const SellrNavbar = () => {
               >
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <Sun className={theme === 'light' ? 'text-yellow-500' : 'text-muted-foreground'} size={20} />
                 <Switch
                   checked={theme === 'light'}
@@ -89,7 +89,7 @@ const SellrNavbar = () => {
                   aria-label="Toggle theme"
                 />
                 <Moon className={theme === 'dark' ? 'text-blue-500' : 'text-muted-foreground'} size={20} />
-              </div>
+              </div> */}
             </div>
           )}
         </div>

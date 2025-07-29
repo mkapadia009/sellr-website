@@ -15,7 +15,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     const stored = localStorage.getItem('theme');
     if (stored === 'light' || stored === 'dark') return stored;
     // Default to dark if not set
-    return 'dark';
+    return 'light';
   });
 
   useEffect(() => {
